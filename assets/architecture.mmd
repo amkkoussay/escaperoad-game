@@ -1,0 +1,27 @@
+graph TD
+    subgraph Core [Game Core]
+        G[Game Class]
+        AD[AI Director - Dynamic Difficulty]
+        LM[Leaderboard Manager - LocalStorage]
+    end
+
+    subgraph Entities [Game Entities]
+        P[Player - Momentum & Physics]
+        O[Obstacles - Procedural Generation]
+        PU[Power-Ups - Buffs & Effects]
+    end
+
+    subgraph Helpers [Physics & Math]
+        CRC[circleRectCollision - Precise Detection]
+    end
+
+    G --> P
+    G --> O
+    G --> PU
+    G --> AD
+    G --> LM
+    P --> CRC
+    O --> CRC
+    PU --> CRC
+    AD --> G
+    LM --> G
