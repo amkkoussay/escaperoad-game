@@ -1,5 +1,7 @@
 # 🏎️ Escape Road Game
 
+> **Attribution:** The original game *Escape Road* is by Azerion. This repository holds only my own small JavaScript re-implementation, written for learning — it does not contain the original game.
+
 **Escape Road Game** is a fast-paced, addictive arcade survival game where you navigate through busy city streets, dodging obstacles and collecting rewards. This project showcases **custom-built game logic in Vanilla JavaScript**, featuring advanced physics, dynamic difficulty, and procedural generation algorithms.
 
 ---
@@ -64,7 +66,6 @@ Visit the live deployment: **[https://escape-road-game-ten.vercel.app/](https://
    cd escaperoad-game
    ```
 2. Open `index.html` in your browser to play the JavaScript version.
-3. (Optional) Open `unity_shell.html` to view the original asset-based shell.
 
 ---
 
